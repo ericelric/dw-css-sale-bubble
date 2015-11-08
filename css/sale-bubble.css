@@ -1,0 +1,74 @@
+@font-face { font-family: 'BodEgyPro-Light';
+             src: url('../font/BodEgyPro-Light.otf') format('opentype'); 
+}
+
+.bubble-sale {
+	font-family:'BodEgyPro-Light' cursive;	
+	white-space: nowrap;
+	display: inline;
+	padding: .23em .33em .1em .42em;
+	color: white;
+	background-color: #cc1212;
+	position: relative;
+}
+.bubble-sale::before {
+	content: "";
+	position: absolute;
+	top: 1.13em;
+	width: 0;
+	height: 0;
+	border-style: solid;
+}
+
+.tip-right {
+	right: 0;
+}
+.tip-right::before {
+	right: -.59em;
+	border-width: .4em 0 0 .6em;
+	border-color: transparent transparent transparent #cc1212;
+}
+
+.tip-left {
+	left: 0;
+}
+.tip-left::before {
+	left: -.59em;
+	border-width: 0 0 .4em .6em;
+	border-color: transparent transparent #cc1212 transparent;
+}
+
+#position-bubble1 {
+	position: absolute;
+	font-size: 24px;
+	top: 130px;
+	left: 325px;
+}
+
+#position-bubble2 {
+	position: absolute;
+	font-size: 34px;
+	top: 285px;
+	left: 525px;
+}
+
+#position-bubble3 {
+	position: absolute;
+	font-size: 20px;
+	top: 664px;
+	left: 278px;
+}
+
+#position-bubble4 {
+	position: absolute;
+	font-size: 20px;
+	top: 664px;
+	left: 721px;
+}
+
+#position-bubble5 {
+	position: absolute;
+	font-size: 20px;
+	top: 664px;
+	left: 945px;
+}
