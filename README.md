@@ -9,6 +9,6 @@ This is a demo of a responsive sale bubble.
 Example:
 ```css
 <div id="position-bubble">
-	<div class="bubble-sale tip-left">Made wiht love!</div>
+	<div class="bubble-sale tip-left">Made with love!</div>
 </div>
 ```
